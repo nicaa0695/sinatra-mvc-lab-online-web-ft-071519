@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end 
   
   post '/piglatinizer' do 
-    @pig
+    @piglatin = PigL
     
   end 
 end
